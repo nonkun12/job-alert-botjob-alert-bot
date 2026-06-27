@@ -2,7 +2,7 @@ name: Fetch Jobs and Notify Slack
 
 on:
   schedule:
-    # 毎日日本時間の朝9:00（UTCでは夜0:00）に実行
+    # 毎日日本時間の朝８:00（UTCでは夜0:00）に実行
     - cron: '0 0 * * *'
   # 手動でテスト実行できるようにする設定
   workflow_dispatch:
